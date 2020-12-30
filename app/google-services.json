@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121992281593",
+    "project_id": "billedeapp-nasc",
+    "storage_bucket": "billedeapp-nasc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121992281593:android:c2f78d6c3730d100941128",
+        "android_client_info": {
+          "package_name": "com.example.billedeapp_nasc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121992281593-v6u3qq8iq1oculqodqlkpoo1ij0q6pk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrL2b4trFJryDZeHsz91512vDf00lrOcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121992281593-v6u3qq8iq1oculqodqlkpoo1ij0q6pk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
