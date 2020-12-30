@@ -83,7 +83,7 @@ public class Take_pictureFragment extends Fragment {
             public void onClick(View v) {
                 if (camera != null && !isPictureTaken){
                     camera.takePicture(null,null,mPictureCallback);
-                    button_takePicture.setText("Retake picture");
+                    button_takePicture.setText("Tag igen");
                     isPictureTaken = true;
                     frameLayout_camera.setVisibility(View.INVISIBLE);
                     frameLayout_photo.setVisibility(View.VISIBLE);

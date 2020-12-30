@@ -36,9 +36,6 @@ public class Settings_Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
     }
 
     @Override
@@ -147,6 +144,5 @@ public class Settings_Fragment extends Fragment {
                 dialog.dismiss();
             }
         });
-
     }
 }

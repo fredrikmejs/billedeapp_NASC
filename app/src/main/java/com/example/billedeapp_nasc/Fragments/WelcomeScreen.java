@@ -32,7 +32,7 @@ public class WelcomeScreen extends Fragment {
         }
 
         if (saveData.loadData(getContext(),"mail_message") == null) {
-            saveData.saveLocal(getContext(), "mail_message", "Test NASC mail system");
+            saveData.saveLocal(getContext(), "mail_message", "");
         }
 
         if (saveData.loadData(getContext(), "TruckNumber") != null){
@@ -54,7 +54,7 @@ public class WelcomeScreen extends Fragment {
             @Override
             public void onClick(View v) {
                 if (truckNumber.length() == 0){
-                    Toast.makeText(getContext(), "Du skal indtaste et truck nummer", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "Bil nummer saknas", Toast.LENGTH_LONG).show();
                 } else {
                     String truckNum = truckNumber.getText().toString();
                     saveData.saveLocal(getContext(), "TruckNumber", truckNum);
